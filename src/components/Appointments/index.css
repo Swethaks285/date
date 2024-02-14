@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  height: 100vh;
+  background-size: cover;
+  border: 2px solid #fbc7d4;
+  padding: 20px;
+}
+
+h1 {
+  color: #171f46;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 5px;
+  align-items: center;
+  padding: 45px;
+}
+
+.btn {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  margin-top: 20px;
+  border: 0px;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100px;
+  margin: 15px;
+  align-items: center;
+}
+.cols {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.li {
+  border: 2px solid gray;
+}
+
+.btn-1 {
+  background-color: transparent;
+  width: 100px;
+  height: 50px;
+}
+.colss {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: stretch;
+}
